@@ -3,6 +3,6 @@ root.innerHTML = "TEXT"; */
 
 
 
-import {addForm, add, del1} from './app';
+import {addForm, add} from './app';
 addForm();
 addButton.addEventListener("click", add);

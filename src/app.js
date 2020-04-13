@@ -22,9 +22,9 @@ function addForm(){
 // addForm();
 
 
-
+let i = 0;
 function add() {
-    let i = 0;
+    
     let div = document.createElement('div');
     if (addText.value) {
         i++
@@ -47,7 +47,7 @@ function add() {
     }
     
 }
-   
+
 function del1(){ 
 console.log(this.className);
 const index = this.className.split("-")[1];
@@ -62,4 +62,4 @@ document.getElementById("valueDiv-" + index).remove();
 
 // addButton.addEventListener("click", add);
 
-export{addForm, add, del1};
+export{addForm, add};

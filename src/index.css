@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 8px;
+    background-color: #eee;
+    font-size: 18px;
+    transition: all 0.2s ease;
+    /* запрещаем копирование */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  ul li:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  ul li:hover {
+    background-color: #ddd;
+  }
+  
+  .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 12px 16px;
+  }
+  .close:hover {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .edit {
+    position: absolute;
+    top: 0;
+    right: 42.53px;
+    padding: 12px 16px;
+  }
+  
+  .edit:hover {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .header {
+    background-color: #f44336;
+    padding: 30px 40px;
+    color: #fff;
+    text-align: center;
+  }
+  .header::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  input {
+    outline: none;
+    border: none;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+  .addBtn {
+    padding: 10px;
+    width: 25%;
+    background-color: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .addBtn:hover {
+    background-color: #bbb;
+  }
+  /* #editLiInputId {
+    position: relative;
+    left: 0;
+    outline: none;
+    border:1px solid #bbb ;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 18px;
+  }
+  .addBtn2 {
+    padding: 10px;
+    width: 25%;
+    background-color: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .addBtn2:hover {
+    background-color: #bbb;
+  } */
+  

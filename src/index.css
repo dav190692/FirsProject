@@ -5,11 +5,11 @@ body {
   * {
     box-sizing: border-box;
   }
-  ul {
+  .boxFirst {
     padding: 0;
     margin: 0;
   }
-  ul li {
+  .rowbox {
     cursor: pointer;
     position: relative;
     padding: 12px 8px 12px 8px;
@@ -22,48 +22,48 @@ body {
     -ms-user-select: none;
     user-select: none;
   }
-  ul li:nth-child(odd) {
+/*   ul li:nth-child(odd) {
     background-color: #f9f9f9;
   }
   ul li:hover {
     background-color: #ddd;
-  }
+  } */
   
-  .close {
+  .removeButton {
     position: absolute;
     top: 0;
     right: 0;
     padding: 12px 16px;
   }
-  .close:hover {
+  .removeButton:hover {
     background-color: #f44336;
     color: #fff;
   }
   
-  .edit {
+  .editButton {
     position: absolute;
     top: 0;
     right: 42.53px;
     padding: 12px 16px;
   }
   
-  .edit:hover {
+  .editButton:hover {
     background-color: #f44336;
     color: #fff;
   }
   
-  .header {
+  .todoBox {
     background-color: #f44336;
     padding: 30px 40px;
     color: #fff;
     text-align: center;
   }
-  .header::after {
+  .todoBox ::after {
     content: "";
     display: table;
     clear: both;
   }
-  input {
+  .todoInput {
     outline: none;
     border: none;
     width: 75%;
@@ -71,7 +71,7 @@ body {
     float: left;
     font-size: 16px;
   }
-  .addBtn {
+  .todoAddButton {
     padding: 10px;
     width: 25%;
     background-color: #d9d9d9;
@@ -82,31 +82,8 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
   }
-  .addBtn:hover {
+  .todoAddButtonn:hover {
     background-color: #bbb;
   }
-  /* #editLiInputId {
-    position: relative;
-    left: 0;
-    outline: none;
-    border:1px solid #bbb ;
-    width: 75%;
-    padding: 10px;
-    float: left;
-    font-size: 18px;
-  }
-  .addBtn2 {
-    padding: 10px;
-    width: 25%;
-    background-color: #d9d9d9;
-    color: #555;
-    float: left;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  .addBtn2:hover {
-    background-color: #bbb;
-  } */
+ 
   

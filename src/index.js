@@ -1,4 +1,5 @@
 
+// import './index.css';
 import { App } from "./app";
 let root = document.getElementById("root");
 const app = new App();

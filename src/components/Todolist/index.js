@@ -1,5 +1,5 @@
-import Row from "../components/Row";
-import { GlobalRules } from "../components/Row/globalRule";
+import Row from "../Row";
+import { GlobalRules } from "../globalRule";
 
 export default class Todo extends GlobalRules {
   constructor() {
@@ -37,5 +37,13 @@ export default class Todo extends GlobalRules {
 
   render() {
     this.list.forEach((item) => this.listBox.append(item.html));
+  }
+
+  hide(){
+    this._box.hidden = true;
+  }
+  show(){
+    this._box.hidden = false;
+
   }
 }

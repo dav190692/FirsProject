@@ -1,4 +1,4 @@
-import { GlobalRules } from "./globalRule";
+import { GlobalRules } from "../globalRule";
 export default class Row extends GlobalRules {
   constructor(value, removeCallBack) {
     super();

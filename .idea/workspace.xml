@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18307a4f-f927-4430-813d-99ddb30217d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Dispatcher/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Login/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Menu/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dispatcher/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dispatcher/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Row/globalRule/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/globalRule/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Row/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Row/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/login/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/todolist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Todolist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Menu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Todolist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Todolist/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +70,8 @@
       <workItem from="1587990574123" duration="11000" />
       <workItem from="1588593440988" duration="487000" />
       <workItem from="1588594800221" duration="6985000" />
+      <workItem from="1588616904636" duration="1123000" />
+      <workItem from="1588654484554" duration="2772000" />
     </task>
     <servers />
   </component>

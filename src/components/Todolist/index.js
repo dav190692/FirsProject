@@ -29,7 +29,7 @@ export default class Todo extends GlobalRules {
         if (!value) {
             alert("write text");
         } else {
-            let row = new Row(value, this.removeFromList);
+            let row = new Row(value, this.removeFromList, this.todoInput);
             console.log(row);
             this.list.push(row);
             this.render();

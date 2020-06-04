@@ -3,6 +3,7 @@ import {GlobalRules} from "./components/globalRule";
 import Menu from "./components/Menu";
 import Dispatcher from "./Dispatcher";
 import Login from "./Login";
+
 export class App extends GlobalRules {
     constructor() {
         super();
@@ -37,8 +38,8 @@ export class App extends GlobalRules {
     }
 
     hideAll() {
-         this.todo.hide();
-         this.login.hide();
+        this.todo.hide();
+        this.login.hide();
 
     }
 }
